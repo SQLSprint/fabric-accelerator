@@ -52,7 +52,7 @@
           }
         },
         "externalReferences": {
-          "connection": "91ecdff4-3ab7-4bbb-b6e0-682881c0540d"
+          "connection": "7e0dd859-a2e9-489a-9fb8-350ad53a1c86"
         },
         "policy": {
           "timeout": "0.12:00:00",
@@ -105,7 +105,7 @@
               },
               "schema": [],
               "externalReferences": {
-                "connection": "a0a57e51-5032-4e46-b0f0-493c9d2f51c9"
+                "connection": "8362d58a-49ee-41ef-96c4-655d02cc5578"
               },
               "annotations": []
             }
@@ -197,7 +197,7 @@
             },
             "schema": [],
             "externalReferences": {
-              "connection": "a0a57e51-5032-4e46-b0f0-493c9d2f51c9"
+              "connection": "8362d58a-49ee-41ef-96c4-655d02cc5578"
             },
             "annotations": []
           }
@@ -274,7 +274,7 @@
           }
         },
         "externalReferences": {
-          "connection": "91ecdff4-3ab7-4bbb-b6e0-682881c0540d"
+          "connection": "7e0dd859-a2e9-489a-9fb8-350ad53a1c86"
         },
         "policy": {
           "timeout": "0.12:00:00",
@@ -320,7 +320,7 @@
           }
         },
         "externalReferences": {
-          "connection": "91ecdff4-3ab7-4bbb-b6e0-682881c0540d"
+          "connection": "7e0dd859-a2e9-489a-9fb8-350ad53a1c86"
         },
         "policy": {
           "timeout": "0.12:00:00",
@@ -364,7 +364,7 @@
             },
             "schema": [],
             "externalReferences": {
-              "connection": "91ecdff4-3ab7-4bbb-b6e0-682881c0540d"
+              "connection": "7e0dd859-a2e9-489a-9fb8-350ad53a1c86"
             },
             "annotations": []
           },
@@ -565,7 +565,7 @@
                 }
               },
               "externalReferences": {
-                "connection": "91ecdff4-3ab7-4bbb-b6e0-682881c0540d"
+                "connection": "7e0dd859-a2e9-489a-9fb8-350ad53a1c86"
               },
               "policy": {
                 "timeout": "0.12:00:00",
@@ -614,7 +614,7 @@
             },
             "schema": [],
             "externalReferences": {
-              "connection": "91ecdff4-3ab7-4bbb-b6e0-682881c0540d"
+              "connection": "7e0dd859-a2e9-489a-9fb8-350ad53a1c86"
             },
             "annotations": []
           },
@@ -865,7 +865,7 @@
                 }
               },
               "externalReferences": {
-                "connection": "91ecdff4-3ab7-4bbb-b6e0-682881c0540d"
+                "connection": "7e0dd859-a2e9-489a-9fb8-350ad53a1c86"
               },
               "policy": {
                 "timeout": "0.12:00:00",
@@ -923,7 +923,7 @@
           }
         },
         "externalReferences": {
-          "connection": "91ecdff4-3ab7-4bbb-b6e0-682881c0540d"
+          "connection": "7e0dd859-a2e9-489a-9fb8-350ad53a1c86"
         },
         "policy": {
           "timeout": "0.12:00:00",
