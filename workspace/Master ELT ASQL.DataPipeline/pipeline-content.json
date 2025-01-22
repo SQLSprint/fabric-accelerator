@@ -291,7 +291,8 @@
         "type": "string"
       },
       "DelayTransformation": {
-        "type": "int"
+        "type": "int",
+		"defaultValue": 0
       }
     }
   }
