@@ -101,7 +101,7 @@
             "datasetSettings": {
               "type": "AzureSqlTable",
               "typeProperties": {
-                "database": "WideWorldImporters"
+                "database": "Sample-db5c5085-bfae-4f13-b339-c495e6b76260"
               },
               "schema": [],
               "externalReferences": {
@@ -193,7 +193,7 @@
           "datasetSettings": {
             "type": "AzureSqlTable",
             "typeProperties": {
-              "database": "WideWorldImporters"
+              "database": "Sample-db5c5085-bfae-4f13-b339-c495e6b76260"
             },
             "schema": [],
             "externalReferences": {

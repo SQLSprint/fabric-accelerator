@@ -23,7 +23,7 @@
               "type": "AzureSqlTable",
               "schema": [],
               "typeProperties": {
-                "database": "WideWorldImporters"
+                "database": "Sample-db5c5085-bfae-4f13-b339-c495e6b76260"
               },
               "externalReferences": {
                 "connection": "8362d58a-49ee-41ef-96c4-655d02cc5578"
@@ -535,7 +535,7 @@
             "type": "AzureSqlTable",
             "schema": [],
             "typeProperties": {
-              "database": "WideWorldImporters"
+              "database": "Sample-db5c5085-bfae-4f13-b339-c495e6b76260"
             },
             "externalReferences": {
               "connection": "8362d58a-49ee-41ef-96c4-655d02cc5578"
