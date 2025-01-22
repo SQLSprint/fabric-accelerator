@@ -56,7 +56,7 @@ def readFile(container, folder, file, colSeparator=None, headerFlag=None):
   # 
   # Parameters:
   # container = Container of Lakehouse. Default value 'Files'
-  # folder = Folder within container where data file resides. E.g 'raw-bronze/wwi/Sales/Orders/2013-01'
+  # folder = Folder within container where data file resides. E.g 'raw-bronze/SalesLT/Sales/Orders/2013-01'
   # file = File name of data file including and file extension. E.g 'Sales_Orders_2013-01-01_000000.parquet'
   # colSeparator = Column separator for text files. Default value None
   # headerFlag = boolean flag to indicate whether the text file has a header or not. Default value None
@@ -261,7 +261,7 @@ def optimizeDelta(tableName):
 
 # CELL ********************
 
-# df = readFile("Files","raw-bronze/wwi/Sales/Orders/2013-01","Sales_Orders_2013-01-01_000000.parquet")
+# df = readFile("Files","raw-bronze/SalesLT/Sales/Orders/2013-01","Sales_Orders_2013-01-01_000000.parquet")
 # display(df)
 
 # METADATA ********************

@@ -4,7 +4,7 @@
       {
         "type": "SqlServerStoredProcedure",
         "typeProperties": {
-          "database": "controlDB",
+          "database": "controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e",
           "storedProcedureName": "[ELT].[InsertIngestInstance]",
           "storedProcedureParameters": {
             "ADFPipelineRunID": {
@@ -222,7 +222,7 @@
       {
         "type": "SqlServerStoredProcedure",
         "typeProperties": {
-          "database": "controlDB",
+          "database": "controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e",
           "storedProcedureName": "[ELT].[UpdateIngestInstance]",
           "storedProcedureParameters": {
             "ADFIngestPipelineRunID": {
@@ -296,7 +296,7 @@
       {
         "type": "SqlServerStoredProcedure",
         "typeProperties": {
-          "database": "controlDB",
+          "database": "controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e",
           "storedProcedureName": "[ELT].[UpdateIngestInstance]",
           "storedProcedureParameters": {
             "ADFIngestPipelineRunID": {
@@ -360,7 +360,7 @@
           "datasetSettings": {
             "type": "AzureSqlTable",
             "typeProperties": {
-              "database": "controlDB"
+              "database": "controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e"
             },
             "schema": [],
             "externalReferences": {
@@ -405,7 +405,7 @@
             {
               "type": "SqlServerStoredProcedure",
               "typeProperties": {
-                "database": "controlDB",
+                "database": "controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e",
                 "storedProcedureName": "[ELT].[InsertTransformInstance_L1]",
                 "storedProcedureParameters": {
                   "CustomParameters": {
@@ -610,7 +610,7 @@
           "datasetSettings": {
             "type": "AzureSqlTable",
             "typeProperties": {
-              "database": "controlDB"
+              "database": "controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e"
             },
             "schema": [],
             "externalReferences": {
@@ -649,7 +649,7 @@
             {
               "type": "SqlServerStoredProcedure",
               "typeProperties": {
-                "database": "controlDB",
+                "database": "controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e",
                 "storedProcedureName": "[ELT].[InsertTransformInstance_L2]",
                 "storedProcedureParameters": {
                   "CustomParameters": {
@@ -892,7 +892,7 @@
       {
         "type": "SqlServerStoredProcedure",
         "typeProperties": {
-          "database": "controlDB",
+          "database": "controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e",
           "storedProcedureName": "[ELT].[UpdateIngestDefinition]",
           "storedProcedureParameters": {
             "IngestID": {
@@ -950,7 +950,7 @@
       },
       "SourceSystemName": {
         "type": "string",
-        "defaultValue": "WWI"
+        "defaultValue": "SalesLT"
       },
       "StreamName": {
         "type": "string",
@@ -1029,7 +1029,7 @@
       },
       "DestinationRawFolder": {
         "type": "string",
-        "defaultValue": "raw-bronze/wwi/Sales/BuyingGroups/1900-01"
+        "defaultValue": "raw-bronze/SalesLT/Sales/BuyingGroups/1900-01"
       },
       "DestinationRawFile": {
         "type": "string",

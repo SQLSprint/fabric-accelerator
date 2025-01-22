@@ -47,7 +47,7 @@ var fabric_deployment_name = 'fabric_dataplatform_deployment_${deployment_suffix
 var purview_deployment_name = 'purview_deployment_${deployment_suffix}'
 var keyvault_deployment_name = 'keyvault_deployment_${deployment_suffix}'
 var audit_deployment_name = 'audit_deployment_${deployment_suffix}'
-var controldb_deployment_name = 'controldb_deployment_${deployment_suffix}'
+var controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e_deployment_name = 'controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e_deployment_${deployment_suffix}'
 
 // Create data platform resource group
 resource fabric_rg  'Microsoft.Resources/resourceGroups@2024-03-01' = {
@@ -151,12 +151,12 @@ module fabric_capacity './modules/fabric-capacity.bicep' = {
 }
 
 //Deploy SQL control DB 
-module controldb './modules/sqldb.bicep' = {
-  name: controldb_deployment_name
+module controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e './modules/sqldb.bicep' = {
+  name: controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e_deployment_name
   scope: fabric_rg
   params:{
      sqlserver_name: 'ba-sql01'
-     database_name: 'controlDB' 
+     database_name: 'controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e' 
      location: fabric_rg.location
      cost_centre_tag: cost_centre_tag
      owner_tag: owner_tag

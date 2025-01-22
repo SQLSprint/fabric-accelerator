@@ -39,7 +39,7 @@ from pyspark.sql import DataFrame,Column,functions,types
 # CELL ********************
 
 # Test File
-file = "Files/raw-bronze/wwi/Sales/Orders/2013-01/Sales_Orders_2013-01-01_000000.parquet"
+file = "Files/raw-bronze/SalesLT/Sales/Orders/2013-01/Sales_Orders_2013-01-01_000000.parquet"
 # Config schema explicitly for testing purposes
 # dataSchema="VendorID STRING,tpep_pickup_datetime TIMESTAMP,tpep_dropoff_datetime TIMESTAMP,passenger_count INT,trip_distance DOUBLE,RatecodeID STRING,store_and_fwd_flag STRING,PULocationID INT,DOLocationID INT,payment_type INT,fare_amount DOUBLE,extra DOUBLE,mta_tax DOUBLE,tip_amount DOUBLE,tolls_amount DOUBLE,improvement_surcharge DOUBLE,total_amount DOUBLE,congestion_surcharge DOUBLE"
 input=spark.read.parquet(file)

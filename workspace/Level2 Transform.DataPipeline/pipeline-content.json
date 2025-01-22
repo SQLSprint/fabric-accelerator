@@ -37,7 +37,7 @@
         },
         "typeProperties": {
           "storedProcedureName": "[ELT].[InsertTransformInstance_L2]",
-          "database": "controlDB",
+          "database": "controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e",
           "storedProcedureParameters": {
             "CustomParameters": {
               "value": {
@@ -504,7 +504,7 @@
         },
         "typeProperties": {
           "storedProcedureName": "[ELT].[UpdateTransformInstance_L2]",
-          "database": "controlDB",
+          "database": "controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e",
           "storedProcedureParameters": {
             "DataFromNumber": {
               "value": {
@@ -601,7 +601,7 @@
         },
         "typeProperties": {
           "storedProcedureName": "[ELT].[UpdateTransformInstance_L2]",
-          "database": "controlDB",
+          "database": "controlDB-98393d97-fe48-41bc-b366-5ec5b4d7941e",
           "storedProcedureParameters": {
             "DataFromNumber": {
               "value": {
