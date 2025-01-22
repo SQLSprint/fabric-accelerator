@@ -472,14 +472,14 @@
         },
         "linkedService": {
           "name": "dw_gold",
-          "objectId": "7e2bbf6b-43fb-498c-90e3-56199c8c3b5e",
+          "objectId": "cb4e73c3-83b6-4966-86e8-169f4dc735f0",
           "properties": {
             "annotations": [],
             "type": "DataWarehouse",
             "typeProperties": {
               "endpoint": "2ipjetq4tn6elkixc3xundvzbi-u4ai3dmkby5u5daorxfpvr5n5q.datawarehouse.fabric.microsoft.com",
-              "artifactId": "7e2bbf6b-43fb-498c-90e3-56199c8c3b5e",
-              "workspaceId": "8d8d00a7-0e8a-4e3b-8c0e-8dcafac7adec"
+              "artifactId": "cb4e73c3-83b6-4966-86e8-169f4dc735f0",
+              "workspaceId": "0fa295ca-7202-43ce-b553-d480850fde51"
             }
           }
         }
