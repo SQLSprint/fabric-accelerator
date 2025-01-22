@@ -93,7 +93,7 @@
             "value": "@pipeline().parameters.ComputeName",
             "type": "Expression"
           },
-          "workspaceId": "0fa295ca-7202-43ce-b553-d480850fde51",
+          "workspaceId": "3425295b-1602-4706-a348-0d3b53450887",
           "parameters": {
             "L1TransformInstanceID": {
               "value": {
