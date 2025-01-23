@@ -612,7 +612,7 @@
                     ],
                     "type": "NonQuery",
                     "text": {
-                      "value": "UPDATE [ELT].[L1TransformDefinition]\nSET LookupColumns = @lookupColumns\n, OutputDWTableWriteMode = @writemode\nWHERE [OutputDWTable]= 'silver.'+ @dwtable",
+                      "value": "UPDATE [ELT].[L1TransformDefinition]\nSET LookupColumns = @lookupColumns\n, OutputDWTableWriteMode = @writemode\nWHERE [OutputDWTable]= 'lh_silver.silver.'+ @dwtable",
                       "type": "Expression"
                     }
                   }
