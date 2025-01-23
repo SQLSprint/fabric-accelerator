@@ -285,7 +285,7 @@
         "typeProperties": {
           "source": {
             "type": "AzureSqlSource",
-            "sqlReaderQuery": "select i.IngestID\n,'L1Transform-Generic-Fabric' as [NotebookName]\n, i.DestinationRawFileSystem as [InputRawFileSystem]\n, i.DestinationRawFolder as [InputRawFileFolder]\n, i.DestinationRawFile as [InputRawFile]\n, 'Not Applicable' as [OutputL1CurateFileSystem]\n, 'Not Applicable' as [OutputL1CuratedFolder]\n, 'Not Applicable' as [OutputL1CuratedFile]\n,i.WatermarkColName\n, 'silver.'+ replace(lower(i.EntityName),'.','_') as [OutputDWTable]\n,'overwrite' as [OutputDWTableWriteMode]\n,3 as [MaxRetries]\n,cast(1 as bit) as [ActiveFlag]\nfrom elt.IngestDefinition as i\nwhere i.SourceSystemName='SalesLT'",
+            "sqlReaderQuery": "select i.IngestID\n,'L1Transform-Generic-Fabric' as [NotebookName]\n, i.DestinationRawFileSystem as [InputRawFileSystem]\n, i.DestinationRawFolder as [InputRawFileFolder]\n, i.DestinationRawFile as [InputRawFile]\n, 'Not Applicable' as [OutputL1CurateFileSystem]\n, 'Not Applicable' as [OutputL1CuratedFolder]\n, 'Not Applicable' as [OutputL1CuratedFile]\n,i.WatermarkColName\n, 'lh_silver.silver.'+ replace(lower(i.EntityName),'.','_') as [OutputDWTable]\n,'overwrite' as [OutputDWTableWriteMode]\n,3 as [MaxRetries]\n,cast(1 as bit) as [ActiveFlag]\nfrom elt.IngestDefinition as i\nwhere i.SourceSystemName='SalesLT'",
             "queryTimeout": "02:00:00",
             "partitionOption": "None",
             "datasetSettings": {
