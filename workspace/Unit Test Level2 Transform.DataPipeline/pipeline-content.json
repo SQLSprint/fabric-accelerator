@@ -1,0 +1,269 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "type": "InvokePipeline",
+        "typeProperties": {
+          "parameters": {
+            "L2TransformInstanceID": {
+              "value": "@pipeline().parameters.L2TransformInstanceID",
+              "type": "Expression"
+            },
+            "L2TransformID": {
+              "value": "@pipeline().parameters.L2TransformID",
+              "type": "Expression"
+            },
+            "IngestID": {
+              "value": "@pipeline().parameters.IngestID",
+              "type": "Expression"
+            },
+            "L1TransformID": {
+              "value": "@pipeline().parameters.L1TransformID",
+              "type": "Expression"
+            },
+            "ComputePath": {
+              "value": "@pipeline().parameters.ComputePath",
+              "type": "Expression"
+            },
+            "ComputeName": {
+              "value": "@pipeline().parameters.ComputeName",
+              "type": "Expression"
+            },
+            "InputType": {
+              "value": "@pipeline().parameters.InputType",
+              "type": "Expression"
+            },
+            "InputFileSystem": {
+              "value": "@pipeline().parameters.InputFileSystem",
+              "type": "Expression"
+            },
+            "InputFileFolder": {
+              "value": "@pipeline().parameters.InputFileFolder",
+              "type": "Expression"
+            },
+            "InputFile": {
+              "value": "@pipeline().parameters.InputFile",
+              "type": "Expression"
+            },
+            "InputFileDelimiter": {
+              "value": "@pipeline().parameters.InputFileDelimiter",
+              "type": "Expression"
+            },
+            "InputFileHeaderFlag": {
+              "value": "@pipeline().parameters.InputFileHeaderFlag",
+              "type": "Expression"
+            },
+            "InputDWTable": {
+              "value": "@pipeline().parameters.InputDWTable",
+              "type": "Expression"
+            },
+            "WatermarkColName": {
+              "value": "@pipeline().parameters.WatermarkColName",
+              "type": "Expression"
+            },
+            "DataFromTimestamp": {
+              "value": "@pipeline().parameters.DataFromTimestamp",
+              "type": "Expression"
+            },
+            "DataToTimestamp": {
+              "value": "@pipeline().parameters.DataToTimestamp",
+              "type": "Expression"
+            },
+            "DataFromNumber": {
+              "value": "@pipeline().parameters.DataFromNumber",
+              "type": "Expression"
+            },
+            "DataToNumber": {
+              "value": "@pipeline().parameters.DataToNumber",
+              "type": "Expression"
+            },
+            "OutputL2CurateFileSystem": {
+              "value": "@pipeline().parameters.OutputL2CurateFileSystem",
+              "type": "Expression"
+            },
+            "OutputL2CuratedFolder": {
+              "value": "@pipeline().parameters.OutputL2CuratedFolder",
+              "type": "Expression"
+            },
+            "OutputL2CuratedFile": {
+              "value": "@pipeline().parameters.OutputL2CuratedFile",
+              "type": "Expression"
+            },
+            "OutputL2CuratedFileDelimiter": {
+              "value": "@pipeline().parameters.OutputL2CuratedFileDelimiter",
+              "type": "Expression"
+            },
+            "OutputL2CuratedFileFormat": {
+              "value": "@pipeline().parameters.OutputL2CuratedFileFormat",
+              "type": "Expression"
+            },
+            "OutputL2CuratedFileWriteMode": {
+              "value": "@pipeline().parameters.OutputL2CuratedFileWriteMode",
+              "type": "Expression"
+            },
+            "OutputDWStagingTable": {
+              "value": "@pipeline().parameters.OutputDWStagingTable",
+              "type": "Expression"
+            },
+            "LookupColumns": {
+              "value": "@pipeline().parameters.LookupColumns",
+              "type": "Expression"
+            },
+            "OutputDWTable": {
+              "value": "@pipeline().parameters.OutputDWTable",
+              "type": "Expression"
+            },
+            "OutputDWTableWriteMode": {
+              "value": "@pipeline().parameters.OutputDWTableWriteMode",
+              "type": "Expression"
+            },
+            "ReRunL2TransformFlag": {
+              "value": "@pipeline().parameters.ReRunL2TransformFlag",
+              "type": "Expression"
+            },
+            "MaxRetries": {
+              "value": "@pipeline().parameters.MaxRetries",
+              "type": "Expression"
+            },
+            "CustomParameters": {
+              "value": "@pipeline().parameters.CustomParameters",
+              "type": "Expression"
+            }
+          },
+          "waitOnCompletion": true,
+          "workspaceId": "00000000-0000-0000-0000-000000000000",
+          "pipelineId": "5a473c1e-fd95-4b0a-a4a0-33537c65a0d7",
+          "operationType": "InvokeFabricPipeline"
+        },
+        "externalReferences": {
+          "connection": "746c808f-f77a-4eb3-bcd7-dc21f4087e95"
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "Invoke pipeline1",
+        "dependsOn": []
+      }
+    ],
+    "parameters": {
+      "L2TransformInstanceID": {
+        "type": "int",
+        "defaultValue": 1
+      },
+      "L2TransformID": {
+        "type": "int",
+        "defaultValue": 55
+      },
+      "IngestID": {
+        "type": "int",
+        "defaultValue": 50
+      },
+      "L1TransformID": {
+        "type": "int",
+        "defaultValue": 50
+      },
+      "ComputePath": {
+        "type": "string"
+      },
+      "ComputeName": {
+        "type": "string",
+        "defaultValue": "[gold].[create_dim_productcategory]"
+      },
+      "InputType": {
+        "type": "string",
+        "defaultValue": "Curated"
+      },
+      "InputFileSystem": {
+        "type": "string",
+        "defaultValue": "Tables"
+      },
+      "InputFileFolder": {
+        "type": "string",
+        "defaultValue": "silver.saleslt_productcategory_003"
+      },
+      "InputFile": {
+        "type": "string"
+      },
+      "InputFileDelimiter": {
+        "type": "string"
+      },
+      "InputFileHeaderFlag": {
+        "type": "int"
+      },
+      "InputDWTable": {
+        "type": "string",
+        "defaultValue": "silver.saleslt_productcategory_003"
+      },
+      "WatermarkColName": {
+        "type": "string",
+        "defaultValue": "LastEditedWhen"
+      },
+      "DataFromTimestamp": {
+        "type": "string"
+      },
+      "DataToTimestamp": {
+        "type": "string"
+      },
+      "DataFromNumber": {
+        "type": "int"
+      },
+      "DataToNumber": {
+        "type": "int"
+      },
+      "OutputL2CurateFileSystem": {
+        "type": "string",
+        "defaultValue": "Tables"
+      },
+      "OutputL2CuratedFolder": {
+        "type": "string",
+        "defaultValue": "gold"
+      },
+      "OutputL2CuratedFile": {
+        "type": "string",
+        "defaultValue": "orders_monthly_snapshot"
+      },
+      "OutputL2CuratedFileDelimiter": {
+        "type": "string"
+      },
+      "OutputL2CuratedFileFormat": {
+        "type": "string"
+      },
+      "OutputL2CuratedFileWriteMode": {
+        "type": "string"
+      },
+      "OutputDWStagingTable": {
+        "type": "string"
+      },
+      "LookupColumns": {
+        "type": "string"
+      },
+      "OutputDWTable": {
+        "type": "string",
+        "defaultValue": "[gold].[create_dim_productcategory]"
+      },
+      "OutputDWTableWriteMode": {
+        "type": "string",
+        "defaultValue": "append"
+      },
+      "ReRunL2TransformFlag": {
+        "type": "int"
+      },
+      "MaxRetries": {
+        "type": "int",
+        "defaultValue": 3
+      },
+      "CustomParameters": {
+        "type": "string"
+      }
+    },
+    "variables": {
+      "RunID": {
+        "type": "String"
+      }
+    }
+  }
+}

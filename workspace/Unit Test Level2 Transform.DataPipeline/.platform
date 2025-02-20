@@ -1,12 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
-    "type": "Notebook",
-    "displayName": "Notebook 1",
-    "description": "New notebook"
+    "type": "DataPipeline",
+    "displayName": "Unit Test Level2 Transform"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "933f6ef9-b413-a594-45a3-35cd7fdc7528"
+    "logicalId": "84201c64-09b2-b77b-467b-4603c8234593"
   }
 }
