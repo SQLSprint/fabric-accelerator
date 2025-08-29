@@ -37,7 +37,7 @@
         },
         "typeProperties": {
           "storedProcedureName": "[ELT].[InsertTransformInstance_L2]",
-          "database": "controlDB-78d6902e-70ea-4fb0-b51e-af3f2aaee3b7",
+          "database": "controlDB-fd3a7493-1980-47bd-a26d-0ba66438ff2c",
           "storedProcedureParameters": {
             "CustomParameters": {
               "value": {
@@ -252,7 +252,7 @@
           }
         },
         "externalReferences": {
-          "connection": "78e8d795-a55c-412e-9b76-47ba404b4d51"
+          "connection": "5a684871-c2ad-476a-99be-8db4f9eaaef4"
         }
       },
       {
@@ -503,7 +503,7 @@
         },
         "typeProperties": {
           "storedProcedureName": "[ELT].[UpdateTransformInstance_L2]",
-          "database": "controlDB-78d6902e-70ea-4fb0-b51e-af3f2aaee3b7",
+          "database": "controlDB-fd3a7493-1980-47bd-a26d-0ba66438ff2c",
           "storedProcedureParameters": {
             "DataFromNumber": {
               "value": {
@@ -577,7 +577,7 @@
           }
         },
         "externalReferences": {
-          "connection": "78e8d795-a55c-412e-9b76-47ba404b4d51"
+          "connection": "5a684871-c2ad-476a-99be-8db4f9eaaef4"
         }
       },
       {
@@ -600,7 +600,7 @@
         },
         "typeProperties": {
           "storedProcedureName": "[ELT].[UpdateTransformInstance_L2]",
-          "database": "controlDB-78d6902e-70ea-4fb0-b51e-af3f2aaee3b7",
+          "database": "controlDB-fd3a7493-1980-47bd-a26d-0ba66438ff2c",
           "storedProcedureParameters": {
             "DataFromNumber": {
               "value": {
@@ -658,7 +658,7 @@
           }
         },
         "externalReferences": {
-          "connection": "78e8d795-a55c-412e-9b76-47ba404b4d51"
+          "connection": "5a684871-c2ad-476a-99be-8db4f9eaaef4"
         }
       }
     ],
@@ -778,7 +778,7 @@
       },
       "GoldWorkspaceID": {
         "type": "string",
-        "defaultValue": "8d8d00a7-0e8a-4e3b-8c0e-8dcafac7adec"
+        "defaultValue": "74dfe239-e2de-4005-8a06-1d0d71ab8dc8"
       },
       "GoldDWEndpoint": {
         "type": "string",
